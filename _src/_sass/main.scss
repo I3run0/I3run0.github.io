@@ -1,4 +1,4 @@
-@import "typography";
+@use "typography";
 
 #scheme-name:after {
   content: var(--scheme-name);

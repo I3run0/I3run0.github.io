@@ -1,4 +1,4 @@
-<div class="title">{ <a href="/">Bruno Franca</a> }</div>
+<div class="title">{ <a href="{{ '/' | relative_url }}">Bruno Franca</a> }</div>
 <nav>
     <ul>
     {% for item in site.data.menu_navigation %}
@@ -13,7 +13,7 @@
           {% if item.label %}
             aria-label="{{ item.label }}"
           {% endif %}
-          href="{{ item.link }}"
+          href="{{ item.link | relative_url }}"
         >
             {% if item.text%}
                 {{ item.text }}

@@ -19,7 +19,7 @@ layout: wrapper.html
                 <p>
                     Tags:
                     {% for tag in page.tags %}
-                        <a href="/notes#{{ tag }}">#{{ tag }}</a>
+                        <a href="{{ '/notes' | relative_url }}#{{ tag }}">#{{ tag }}</a>
                     {% endfor %}
                 </p>
             {% endif %}

@@ -7,8 +7,8 @@ description: >-
 #URL settings
 domain: ""
 permalink: pretty
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+url: "https://www.students.ic.unicamp.br"
+baseurl: "/~ra217787"
 
 source: _src
 
@@ -49,4 +49,4 @@ defaults:
     values:
       layout: "default.html"
       language: "en"
-      author: "Maíra Canal"
+      author: "Bruno S. Franca"
